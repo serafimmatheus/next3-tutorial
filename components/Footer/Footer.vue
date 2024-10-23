@@ -1,0 +1,9 @@
+<template>
+  <footer>
+    <UContainer>
+      <div>
+        <h5>Footer</h5>
+      </div>
+    </UContainer>
+  </footer>
+</template>
