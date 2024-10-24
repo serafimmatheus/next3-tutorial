@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mt-6">
     <BannerMain />
 
     <div class="mt-8">
@@ -54,13 +54,96 @@
     </div>
 
     <div class="mt-24 mb-24 space-y-8">
-      <div class="flex items-center justify-between gap-10">
+      <div class="flex flex-col gap-10">
         <div>
           <h2 class="text-3xl font-bold text-[#1F2D58]">
             Categorias de produtos
           </h2>
           <span class="text-[#6E6E6E]">Peças e acessórios para Notebook</span>
         </div>
+
+        <ul class="flex items-center justify-between gap-10">
+          <li>
+            <div class="flex flex-col items-center justify-center gap-2">
+              <img
+                class="rounded-full border border-[#DFDFDF]"
+                src="https://placehold.co/112x112"
+                alt="placeHolder"
+              />
+              <span class="text-[#1F2D58] font-bold text-center"
+                >Acessórios</span
+              >
+            </div>
+          </li>
+
+          <li>
+            <div class="flex flex-col items-center justify-center gap-2">
+              <img
+                class="rounded-full border border-[#DFDFDF]"
+                src="https://placehold.co/112x112"
+                alt="placeHolder"
+              />
+              <span class="text-[#1F2D58] font-bold text-center"
+                >Armazenamento</span
+              >
+            </div>
+          </li>
+
+          <li>
+            <div class="flex flex-col items-center justify-center gap-2">
+              <img
+                class="rounded-full border border-[#DFDFDF]"
+                src="https://placehold.co/112x112"
+                alt="placeHolder"
+              />
+              <span class="text-[#1F2D58] font-bold text-center">Baterias</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="flex flex-col items-center justify-center gap-2">
+              <img
+                class="rounded-full border border-[#DFDFDF]"
+                src="https://placehold.co/112x112"
+                alt="placeHolder"
+              />
+              <span class="text-[#1F2D58] font-bold text-center">Cooler</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="flex flex-col items-center justify-center gap-2">
+              <img
+                class="rounded-full border border-[#DFDFDF]"
+                src="https://placehold.co/112x112"
+                alt="placeHolder"
+              />
+              <span class="text-[#1F2D58] font-bold text-center">Fontes</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="flex flex-col items-center justify-center gap-2">
+              <img
+                class="rounded-full border border-[#DFDFDF]"
+                src="https://placehold.co/112x112"
+                alt="placeHolder"
+              />
+              <span class="text-[#1F2D58] font-bold text-center">Teclados</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="flex flex-col items-center justify-center gap-2">
+              <img
+                class="rounded-full border border-[#DFDFDF]"
+                src="https://placehold.co/112x112"
+                alt="placeHolder"
+              />
+              <span class="text-[#1F2D58] font-bold text-center">Telas</span>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
 
