@@ -43,7 +43,7 @@
       </li>
 
       <li class="text-[#8E41F2] text-sm font-bold">
-        <NuxtLink class="flex items-center gap-1" to="/categoria">
+        <NuxtLink class="flex items-center gap-1" to="/clientes">
           Outlet
         </NuxtLink>
       </li>

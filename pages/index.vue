@@ -270,6 +270,27 @@
 </template>
 
 <script setup>
+useHead({
+  title: 'Home',
+  meta: [
+    {
+      name: 'description',
+      content: 'Peças e acessórios para Notebook',
+    },
+  ],
+})
+
+useSeoMeta({
+  title: 'Home - SEO e Meta',
+  ogUrl: 'https://bringit.com.br',
+  ogType: 'article',
+  ogTitle: 'Home',
+  ogDescription: 'Peças e acessórios para Notebook',
+  ogImage: 'https://bringit.com.br/assets/og-image.png',
+  ogSiteName: 'bringIT',
+  ogLocale: 'pt_BR',
+})
+
 const categoria = ref('Ver todos')
 const products = ref([
   {

@@ -10,4 +10,22 @@ export default defineNuxtConfig({
 
   css: ['@/assets/css/globals.css'],
   modules: ['@nuxt/ui'],
+  app: {
+    pageTransition: {
+      name: 'page',
+      mode: 'out-in',
+    },
+    head: {
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Meta description',
+        },
+      ],
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    },
+  },
 })
