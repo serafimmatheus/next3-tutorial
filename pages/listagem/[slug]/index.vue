@@ -296,33 +296,7 @@
         </div>
 
         <div class="mt-4 relative">
-          <div class="bg-[#DFDFDF] flex items-center rounded-lg px-10">
-            <img
-              class="absolute -top-2 left-8"
-              src="@/assets/box-delivery.png"
-              alt="box delivery"
-            />
-
-            <p class="pl-24 p-4 text-sm text-[#1F2D58]">
-              Receba seu pedido no <b>MESMO DIA</b> nas cidades de
-              <b>São Paulo</b>, <b>Curitiba</b>, <b>Belo Horizonte</b> e
-              <b>Joinville</b>
-            </p>
-
-            <UButton
-              :ui="{
-                padding: {
-                  xl: 'py-1 px-7',
-                },
-              }"
-              color="violet"
-              variant="outline"
-              size="xl"
-              to="https://volta.net"
-              target="_blank"
-              >Ver mais</UButton
-            >
-          </div>
+          <BoxDelivery />
         </div>
 
         <div class="mt-3 bg-white rounded-lg border border-[#DFDFDF] p-4">
